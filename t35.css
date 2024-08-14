@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+.a-btn{
+    color: brown;
+    }
+
+ .a-btn:visited{
+    color: chartreuse;
+ }
+
+ .a-btn:hover{
+    background-color: cadetblue;
+    color: rgba(112, 51, 124, 0.658);
+
+ }
+ .a-btn:active{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid red;
+    padding: 10px;
+ }
+ .a-btn::after{
+    content: '#';
+    color: blue;
+ }
+
+ ul li:first-child{
+    background-color: chocolate;
+ }
+ ul li:last-child{
+    background-color: aqua;
+ }
+ ul li:nth-child(2n){
+    background-color: crimson;
+ }
+
+ /* pseudo element */
+
+ h2::first-letter{
+    /* background-color: blueviolet; */
+    font-size: 3rem;
+ }
+ p::first-line{
+    background-color: cadetblue;
+ }
+ h3::before{
+    content: 'now ';
+ }
+ h3::after{
+    content: '*';
+ }
+
+ ::selection{
+    color:rgb(189, 57, 169);
+    background-color: blueviolet;
+ }
+ .required::after{
+    content: '*';
+    color: red;
+ }

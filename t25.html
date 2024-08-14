@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            height: 400vh;
+        }
+        .con{
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            width: 300px;
+            margin: 100px;
+            background-color: rgb(98, 83, 112);
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: darkkhaki;
+            position: relative;
+            
+            
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+           background-color: blue;
+           position: absolute;
+           left: 100px;
+           top: 100px;
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: sticky;
+            bottom: 100px;
+            left:100px;
+
+        }
+        .box4{
+            width: 100px;
+            height: 100px;
+            position: fixed;
+             background-color:pink;
+             bottom:100px;
+
+            right: 0px;
+            
+
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box1">red</div>
+        <div class="box2">green</div>
+        <div class="box3">blue</div>
+        <div class="box4">pink</div>
+    </div>
+</body>
+</html>
